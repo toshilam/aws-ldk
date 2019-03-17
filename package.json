@@ -1,0 +1,52 @@
+{
+  "name": "aws-ldk",
+  "version": "2.0.1",
+  "description": "AWS Lambda Development kit",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"ok\"&&exit 0",
+    "deploy": "npm publish",
+    "build": "webpack --config webpack.config.js"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.395.0",
+    "axios": "0.18.0",
+    "callstack": "1.0.1",
+    "claudia-api-builder": "^4.1.2",
+    "colors": "^1.3.3",
+    "crypto-js": "^3.1.9-1",
+    "decode-uri-component": "^0.2.0",
+    "dynamoose": "^0.8.7",
+    "graphql": "^0.13.2",
+    "graphql-sql": "^1.1.8",
+    "graphql-type-json": "^0.2.1",
+    "i18n-2": "^0.7.3",
+    "js-cookie": "^2.2.0",
+    "moment": "^2.24.0",
+    "mysql": "^2.16.0",
+    "npmvc": "1.0.5",
+    "randomstring": "^1.1.5",
+    "safe-buffer": "5.1.1",
+    "shortid": "2.2.8",
+    "underscore": "1.8.3",
+    "uuid": "^3.3.2",
+    "validator": "^10.11.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-es2015-destructuring": "^6.23.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "clear-module": "^3.1.0",
+    "mocha": "^5.2.0",
+    "should": "^13.2.3",
+    "uglifyjs-webpack-plugin": "^1.2.7",
+    "webpack": "^3.8.1",
+    "webpack-uglify-js-plugin": "^1.1.9"
+  },
+  "repository": "",
+  "author": "Toshi",
+  "license": "ISC"
+}

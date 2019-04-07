@@ -12,7 +12,7 @@ module.exports = ocs = require('../');
 	
 	Tools.isProduction = function()
 	{
-		return process.env.NODE_ENV == 'production';
+		return process.env.NODE_ENV == 'production' || process.env.NODE_ENV == 'prod';
 	}
 	
 	/*Tools.isDebug = function()
